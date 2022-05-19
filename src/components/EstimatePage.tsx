@@ -6,20 +6,20 @@ const EstimatePage = () => {
   return (
     <div className='flex flex-col items-center justify-center m-4'>
       <div className="form-control">
-        <label className="input-group input-group-lg">
+        <label className="input-group input-group-md">
           <span>Story</span>
-          <input type="text" placeholder="Id / Brief description" className="input input-bordered input-lg" />
+          <input type="text" placeholder="Id / Brief description" className="input input-bordered input-md w-36 sm:w-64 focus:animate-pulse" />
         </label>
       </div>
       <div className="btn-group m-4">
         <button className="btn hover:animate-pulse">🎴 Reset</button>
         <button className="btn hover:animate-pulse">🃏 Reveal</button>
       </div>
-      <div className='flex flex-row flex-wrap'>
+      <div className='flex flex-row flex-wrap items-center justify-center'>
         <ClosedCard name='John' />
-        <ClosedCard name='Doe' />
+        <ClosedCard name='Jenny' />
         <OpenCard name='Bob' value='XL' />
-        <ClosedCard name='Bill' />
+        <ClosedCard name='Karen' />
       </div>
       <div className="btn-group">
         <input type="radio" name="options" data-title="XS" title="XS" className="btn hover:animate-pulse" />
