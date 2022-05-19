@@ -2,7 +2,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import ClosedCard from '../components/ClosedCard';
 
 export default {
-  title: 'Cards/ClosedCard',
+  title: 'Cards/Closed',
   component: ClosedCard,
   argTypes: {
     backgroundColor: { control: 'color' },
@@ -11,7 +11,7 @@ export default {
 
 const Template: ComponentStory<typeof ClosedCard> = (args) => <ClosedCard {...args} />;
 
-export const Closed = Template.bind({});
-Closed.args = {
+export const Default = Template.bind({});
+Default.args = {
     name: 'John'
 };

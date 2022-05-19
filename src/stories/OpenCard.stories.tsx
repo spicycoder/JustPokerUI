@@ -2,7 +2,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import OpenCard from '../components/OpenCard';
 
 export default {
-  title: 'Cards/OpenCard',
+  title: 'Cards/Open',
   component: OpenCard,
   argTypes: {
     backgroundColor: { control: 'color' },
