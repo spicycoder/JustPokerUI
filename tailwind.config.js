@@ -11,6 +11,7 @@ module.exports = {
   ],
   daisyui: {
     themes: [
+      "dracula",
       "light",
       "dark",
       "cupcake",
@@ -31,7 +32,6 @@ module.exports = {
       "wireframe",
       "black",
       "luxury",
-      "dracula",
       "cmyk",
       "autumn",
       "business",

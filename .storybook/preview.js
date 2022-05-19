@@ -14,6 +14,7 @@ export const parameters = {
 export const globalTypes = {
   themes: {
     defaultValue: [
+      "dracula",
       "light",
       "dark",
       "cupcake",
@@ -34,7 +35,6 @@ export const globalTypes = {
       "wireframe",
       "black",
       "luxury",
-      "dracula",
       "cmyk",
       "autumn",
       "business",
